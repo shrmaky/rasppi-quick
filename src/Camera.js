@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Camera from 'react-camera';
 
-export default class Camera extends Component {
+export default class CameraApp extends Component {
 
   constructor(props) {
     super(props);

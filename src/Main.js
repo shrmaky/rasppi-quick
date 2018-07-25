@@ -1,6 +1,6 @@
 import React from 'react';
-import Camera from './Camera';
+import CameraApp from './Camera';
 
 export default function Main () {
-  return (<Camera />)
+  return <CameraApp/>
 }

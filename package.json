@@ -19,7 +19,8 @@
   "author": "Akshat Sharma",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.18.3"
+    "nodemon": "^1.18.3",
+    "webpack-cli": "^3.1.0"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
