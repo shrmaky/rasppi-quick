@@ -2,7 +2,52 @@
   <head>
   </head>
   <body>
-    <div id="root"></div>
+    <!--<div id="root"></div>-->
     <script src='/dist/bundle.js'></script>
+	
+  <video id="player" autoplay="true"></video>
+  <script>
+    "use strict";
+
+    (function(){
+      // Canvas and video HTML elements.
+      var eVideo = document.querySelector("#player");
+
+      // Work out the dimensions of our canvas.
+      var iVideoWidth = 640;
+      var iVideoHeight = 480;
+
+      var oVideoOptions = {
+        mandatory: {
+          maxWidth: iVideoWidth,
+          maxHeight: iVideoHeight
+        },
+        optional: []
+      };
+
+      var oMediaOptions = { audio: false, video: oVideoOptions};
+
+      if (!navigator.getUserMedia) {
+          navigator.getUserMedia = navigator.getUserMedia ||
+                                   navigator.webkitGetUserMedia ||
+                                   navigator.mozGetUserMedia ||
+                                   navigator.msGetUserMedia;
+      }
+
+      if (!navigator.getUserMedia){
+        return alert('getUserMedia not supported in this browser.');
+      }
+
+      navigator.getUserMedia(oMediaOptions, success, function(e) {
+        console.log(e);
+      });
+
+      function success(stream){
+        eVideo.src = window.URL.createObjectURL(stream);
+        setTimeout(function(){window.location.reload(true)}, 300000);
+      }
+    })();
+  </script>
+
   </body>
 </html>
