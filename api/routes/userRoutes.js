@@ -7,7 +7,14 @@ module.exports = function(app) {
 
         var PythonShell = require('python-shell');
 
-        PythonShell.run('/usr/share/doc/python-fingerprint/examples/example_enroll.py', function (err) {
+        const options = {
+            mode: 'text',
+            pythonPath: '/usr/bin/python',
+            pythonOptions: ['-u'],
+            scriptPath: '/usr/share/doc/python-fingerprint/examples',
+        };
+
+        PythonShell.run('example_enroll.py', function (err) {
             if (err) throw err;
             console.log('finished');
         });

@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29b6bdb6-7b9e-493d-bf26-cbf196b3197d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/userRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/userRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="29b6bdb6-7b9e-493d-bf26-cbf196b3197d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/dist/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,6 +36,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="37" column="11" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="live_w_locator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/barcode/live_w_locator.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/api/routes/userRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -103,17 +106,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Qrcode.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Qrcode.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -126,6 +118,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>world</find>
+      <find>python</find>
       <find>result_strip</find>
     </findStrings>
   </component>
@@ -250,12 +243,12 @@
       <updated>1532519120082</updated>
       <workItem from="1532519122423" duration="7355000" />
       <workItem from="1532534335333" duration="434000" />
-      <workItem from="1532579428113" duration="6238000" />
+      <workItem from="1532579428113" duration="7258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14027000" />
+    <option name="totallyTimeSpent" value="15047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
@@ -503,13 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -546,39 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/barcode/live_w_locator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Camera.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Barcode.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5955">
-          <caret line="407" column="88" selection-start-line="407" selection-start-column="88" selection-end-line="407" selection-end-column="88" />
-          <folding>
-            <element signature="n#label#5;n#fieldset#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#select#0;n#label#5;n#fieldset#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#label#6;n#fieldset#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#label#7;n#fieldset#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/controllers/userController.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -599,10 +552,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5955">
+          <caret line="407" column="88" selection-start-line="407" selection-start-column="88" selection-end-line="407" selection-end-column="88" />
+          <folding>
+            <element signature="n#label#5;n#fieldset#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#select#0;n#label#5;n#fieldset#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#label#6;n#fieldset#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#label#7;n#fieldset#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/barcode/live_w_locator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Camera.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Barcode.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/routes/userRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
