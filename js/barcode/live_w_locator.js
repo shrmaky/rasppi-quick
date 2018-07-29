@@ -265,7 +265,7 @@ $(function() {
                 drawingCtx.clearRect(0, 0, parseInt(drawingCanvas.getAttribute("width")), parseInt(drawingCanvas.getAttribute("height")));
                 result.boxes.filter(function (box) {
                     return box !== result.box;
-                }).forEach(function (box) {
+                }).forEach(function (box) {ß
                     Quagga.ImageDebug.drawPath(box, {x: 0, y: 1}, drawingCtx, {color: "green", lineWidth: 2});
                 });
             }
@@ -284,6 +284,7 @@ $(function() {
         var code = result.codeResult.code;
 
         if (App.lastResult !== code) {
+            alert(code);
             App.lastResult = code;
             var $node = null, canvas = Quagga.canvas.dom.image;
 
