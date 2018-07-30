@@ -1,6 +1,6 @@
 # rasppi-quick
 
-#### This is a raspberry Pi Camera quick starter application with React & Express. You can use this application to create either front-end application or write API's
+#### This is a raspberry Pi Camera quick starter application with React & Express with Barcode Scanning. You can use this application to create either front-end application or write API's
 
 ##### Machine Used: Raspberry Pi 3 Model-B
 ##### OS - Raspian OS Jessy & Stretch
