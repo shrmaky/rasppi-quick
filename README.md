@@ -1,14 +1,14 @@
 # rasppi-quick
 
-####This is a raspberry Pi Camera quick starter application with React & Express. You can use this application to create either front-end application or write API's
+#### This is a raspberry Pi Camera quick starter application with React & Express. You can use this application to create either front-end application or write API's
 
-#####Machine Used: Raspberry Pi 3 Model-B
-#####OS - Raspian OS Jessy & Stretch
-#####Camera Used: Raspberry Pi 
+##### Machine Used: Raspberry Pi 3 Model-B
+##### OS - Raspian OS Jessy & Stretch
+##### Camera Used: Raspberry Pi 
 
-####Step1: Clone the library
+#### Step1: Clone the library
 
-####Step2: ```npm install``` //this install all the packages
+#### Step2: ```npm install``` //this install all the packages
 
 ####Step3(Optional): In Raspberry PI OS - Jessy & Stretch, the cam quality inside chromium browser is poor due to Chrome issues.If you face this issue, run following command
                     sudo nano /etc/modules
@@ -28,7 +28,7 @@
     2. The application also includes Barcode, Camera, Qrcode & Webcam library for future uses
     
     
-####Raspberry PI Beginner:
+#### Raspberry PI Beginner:
         Things you need to start:
         1. Raspberry PI
         2. Monitor with HDMI Cable
@@ -37,7 +37,7 @@
         5. Raspberry PI Camera
          
     
-######References -
+###### References -
   1. [How to install Raspberry Pi Camera](https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-the-raspberry-pi-camera)
   2. [Pi-Camera in Browser](https://reprage.com/post/pi-camera-module-in-the-browser)
   3. [Setting up fingerprints for Raspberry Pi](https://tutorials-raspberrypi.com/how-to-use-raspberry-pi-fingerprint-sensor-authentication/)
