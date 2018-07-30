@@ -5,7 +5,6 @@ var mongoose = require('mongoose'),
   User = mongoose.model('User');
 
 exports.list_all_user = function(req, res) {
-  print("akshat");exit();
   User.find({}, function(err, user) {
     if (err)
       res.send(err);

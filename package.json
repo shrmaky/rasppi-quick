@@ -27,6 +27,7 @@
     "babel-loader": "^7.1.5",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.3",
     "browser-fingerprint": "^0.1.0",
     "browser_fingerprint": "^1.0.3",
     "chalk": "^2.3.0",
@@ -45,6 +46,6 @@
     "react-qr-reader": "^2.1.0",
     "react-webcam": "^1.0.1",
     "rpio": "^0.9.22",
-    "webpack": "^4.16.2"
+    "webpack": "^4.16.3"
   }
 }

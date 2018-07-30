@@ -3,7 +3,7 @@ module.exports = function(app) {
   var user = require('../controllers/userController');
 
 
-    app.get('/enroll', function (req, res) {
+    /*app.get('/enroll', function (req, res) {
 
         var PythonShell = require('python-shell');
 
@@ -20,7 +20,7 @@ module.exports = function(app) {
         });
 
         res.send('Finger Enrolled')
-    })
+    });*/
 
   // todoList Routes
   app.route('/user')

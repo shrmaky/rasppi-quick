@@ -1,0 +1,187 @@
+{
+	"info": {
+		"_postman_id": "0300d076-04a4-4a46-9ba2-7706b25c497d",
+		"name": "Raspberry PI API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Read User",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Test User",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4141/user/5b5ef77612a83351cd6afdde",
+					"host": [
+						"localhost"
+					],
+					"port": "4141",
+					"path": [
+						"user",
+						"5b5ef77612a83351cd6afdde"
+					]
+				},
+				"description": "Read User"
+			},
+			"response": []
+		},
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Test User",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4141/user",
+					"host": [
+						"localhost"
+					],
+					"port": "4141",
+					"path": [
+						"user"
+					]
+				},
+				"description": "Add a User"
+			},
+			"response": []
+		},
+		{
+			"name": "View All Users",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Test User",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4141/user",
+					"host": [
+						"localhost"
+					],
+					"port": "4141",
+					"path": [
+						"user"
+					]
+				},
+				"description": "View all Users"
+			},
+			"response": []
+		},
+		{
+			"name": "Update User",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Akshat",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4141/user/5b5ef58b9afd494c6e7c6a2f",
+					"host": [
+						"localhost"
+					],
+					"port": "4141",
+					"path": [
+						"user",
+						"5b5ef58b9afd494c6e7c6a2f"
+					]
+				},
+				"description": "Using PUT"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Akshat",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4141/user/5b5ef85912a83351cd6afddf",
+					"host": [
+						"localhost"
+					],
+					"port": "4141",
+					"path": [
+						"user",
+						"5b5ef85912a83351cd6afddf"
+					]
+				},
+				"description": "Using DELETE"
+			},
+			"response": []
+		}
+	]
+}

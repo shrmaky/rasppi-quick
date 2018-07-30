@@ -6,6 +6,8 @@
 ##### OS - Raspian OS Jessy & Stretch
 ##### Camera Used: Raspberry Pi 
 
+---
+
 #### Step1: Clone the library
 
 #### Step2: ```npm install``` //this install all the packages
@@ -26,6 +28,8 @@
 #### Help:
     1. Best Hack: If you are facing any error in running server, try changing port inside server.js
     2. The application also includes Barcode, Camera, Qrcode & Webcam library for future uses
+    3. Make sure your mongo application is running on default port 27017
+    4. In Data folder, added a POSTMAN collection for API
     
     
 #### Raspberry PI Beginner:
@@ -35,6 +39,7 @@
         3. Keyboard & Mouse
         4. Power cable to connect Raspberry
         5. Raspberry PI Camera
+        
          
     
 ###### References -
