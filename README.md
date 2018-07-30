@@ -38,14 +38,13 @@
          
     
 ######References -
-    1. https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-the-raspberry-pi-camera
-    2. https://reprage.com/post/pi-camera-module-in-the-browser
-    3. Setting up fingerprints for Raspberry Pi - https://tutorials-raspberrypi.com/how-to-use-raspberry-pi-fingerprint-sensor-authentication/
-    4. https://thejackalofjavascript.com/getting-started-raspberry-pi-node-js/
-    5. https://thejackalofjavascript.com/rpi-video-the-intruder/
-    6. https://blog.cloudboost.io/how-to-run-a-nodejs-web-server-on-a-raspberry-pi-for-development-3ef9ac0fc02c
-    7. https://www.codepool.biz/raspberrypi-barcode-scanner-webcam-python.html
-    8. https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd
-    9. http://mongoosejs.com/docs/index.html
-    10. https://github.com/theonlymikeever/quick-react
-    11. https://serratus.github.io/quaggaJS/
+  1. [How to install Raspberry Pi Camera](https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-the-raspberry-pi-camera)
+  2. [Pi-Camera in Browser](https://reprage.com/post/pi-camera-module-in-the-browser)
+  3. [Setting up fingerprints for Raspberry Pi](https://tutorials-raspberrypi.com/how-to-use-raspberry-pi-fingerprint-sensor-authentication/)
+  4. [Getting started Nodejs & Raspberry PI](https://thejackalofjavascript.com/getting-started-raspberry-pi-node-js/)
+  5. [Running Nodejs web server on Raspberry PI](https://blog.cloudboost.io/how-to-run-a-nodejs-web-server-on-a-raspberry-pi-for-development-3ef9ac0fc02c)
+  6. [Raspberry PI Barcode Scanner](https://www.codepool.biz/raspberrypi-barcode-scanner-webcam-python.html)
+  7. [Tutorial - Nodejs Restful API](https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd)
+  8. [Mongoose.js - Connector Nodejs & Mongo](http://mongoosejs.com/docs/index.html)
+  9. [Quick React Boilerplate](https://github.com/theonlymikeever/quick-react)
+  10. [JS Library Barcode Scanning](https://serratus.github.io/quaggaJS/)
