@@ -53,3 +53,4 @@
   8. [Mongoose.js - Connector Nodejs & Mongo](http://mongoosejs.com/docs/index.html)
   9. [Quick React Boilerplate](https://github.com/theonlymikeever/quick-react)
   10. [JS Library Barcode Scanning](https://serratus.github.io/quaggaJS/)
+  11. [Mongo Mac Installation](https://treehouse.github.io/installation-guides/mac/mongo-mac.html)
